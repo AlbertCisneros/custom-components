@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.ui-btn {
+    font-family: "Lato";
+    border: 0px;
+    padding: 0px 16px;
+    border-radius: 12px;
+    cursor: pointer;
+
+    &.disabled {
+        background-color: #ccc !important;
+    }
+}
+
+.ui-btn p {
+    margin: 0px;
+}
+
+.ui-btn--lg {
+    height: 48px;
+}
+
+.ui-btn--md {
+    height: 40px;
+}
+
+.ui-btn--sm {
+    height: 32px;
+}
+
+.ui-btn--primary {
+    background-color: rgba(45,69,120,1); //#2D4578;
+    color: #fff;
+}
+
+.ui-btn--primary:hover{
+    background-color: rgba(45,69,120,0.9); 
+}
+
+.ui-btn--secondary {
+    background-color:rgba(232,137,0,1) ;//#E88900;
+    color: #fff;
+}
+
+.ui-btn--secondary:hover {
+    background-color:rgba(232,137,0,0.9);
+}
+
+.ui-btn--text {
+    border-radius: 0px !important;
+    background-color: #fff;
+    color: rgba(232,137,0,1);
+    font-weight: bold;
+}
+
+.ui-btn--text:hover{
+    border-bottom: 2px solid rgba(232,137,0,1);
+    box-sizing: unset;
+}  
