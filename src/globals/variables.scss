@@ -1,0 +1,174 @@
+$primary-900: var(--primary-900,#7a3514);
+$primary-800: var(--primary-800,#983e14);
+$primary-700: var(--primary-700,#bf4e0f);
+$primary-600: var(--primary-600,#e66810);
+$primary-500: var(--primary-500,#f58117);
+$primary-400: var(--primary-400,#f89f3f);
+$primary-300: var(--primary-300,#fbc376);
+$primary-200: var(--primary-200,#fdddab);
+$primary-100: var(--primary-100,#fef0d6);
+$primary-050: var(--primary-050,#fff8ed);
+
+$secondary-950: var(--secondary-950,#293042);
+$secondary-900: var(--secondary-900,#3e4a6a);
+$secondary-800: var(--secondary-800,#46557f);
+$secondary-700: var(--secondary-700,#546aa1);
+$secondary-600: var(--secondary-600,#607bb0);
+$secondary-500: var(--secondary-500,#7291bf);
+$secondary-400: var(--secondary-400,#8eaccc);
+$secondary-300: var(--secondary-300,#b2c8de);
+$secondary-200: var(--secondary-200,#d2deeb);
+$secondary-100: var(--secondary-100,#e5ebf4);
+$secondary-050: var(--secondary-050,#f4f7fa);
+
+$background-950: var(--background-950,#301b37);
+$background-900: var(--background-900,#513758);
+$background-800: var(--background-800,#603e6a);
+$background-700: var(--background-700,#734a81);
+$background-600: var(--background-600,#835794);
+$background-500: var(--background-500,#a77bba);
+$background-400: var(--background-400,#c3a1d1);
+$background-300: var(--background-300,#d9c4e3);
+$background-200: var(--background-200,#e9def0);
+$background-100: var(--background-100,#f4eff8);
+$background-050: var(--background-050,#faf7fc);
+
+$generic-950: var(--generic-950,#450a0c);
+$generic-900: var(--generic-900,#7f1d20);
+$generic-800: var(--generic-800,#991b1f);
+$generic-700: var(--generic-700,#b91c21);
+$generic-600: var(--generic-600,#dc262c);
+$generic-500: var(--generic-500,#f1585d);
+$generic-400: var(--generic-400,#f87175);
+$generic-300: var(--generic-300,#fca5a8);
+$generic-200: var(--generic-200,#fecacc);
+$generic-100: var(--generic-100,#fee2e3);
+$generic-050: var(--generic-050,#fef2f2);
+
+$purple-950: var(--purple-950,#451228);
+$purple-900: var(--purple-900,#732848);
+$purple-800: var(--purple-800,#892b54);
+$purple-700: var(--purple-700,#a53164);
+$purple-600: var(--purple-600,#c55188);
+$purple-500: var(--purple-500,#d3619c);
+$purple-400: var(--purple-400,#e186b8);
+$purple-300: var(--purple-300,#edb4d5);
+$purple-200: var(--purple-200,#f4d6e8);
+$purple-100: var(--purple-100,#f9eaf3);
+$purple-050: var(--purple-050,#fbf4f8);
+
+$blue-950: var(--blue-950,#192833);
+$blue-900: var(--blue-900,#2c3f4d);
+$blue-800: var(--blue-800,#2f4858);
+$blue-700: var(--blue-700,#33576b);
+$blue-600: var(--blue-600,#386982);
+$blue-500: var(--blue-500,#407f9a);
+$blue-400: var(--blue-400,#5b9bb5);
+$blue-300: var(--blue-300,#90bed0);
+$blue-200: var(--blue-200,#bedae3);
+$blue-100: var(--blue-100,#dcecf1);
+$blue-050: var(--blue-050,#f1f8fa);
+
+
+$complementary-900: var(--complementary-900,#003b34);
+$complementary-800: var(--complementary-800,#0b4d45);
+$complementary-700: var(--complementary-700,#005e53);
+$complementary-600: var(--complementary-600,#008071);
+$complementary-500: var(--complementary-500,#1f9183);
+$complementary-400: var(--complementary-400,#0aa693);
+$complementary-300: var(--complementary-300,#08bda6);
+$complementary-200: var(--complementary-200,#65cfc1);
+$complementary-100: var(--complementary-100,#a2ebe2);
+$complementary-050: var(--complementary-050,#d4faf5);
+$complementary-040: var(--complementary-040,#e8fcf9);
+
+$analogous-700: var(--analogous-700,#0759a4);
+$analogous-600: var(--analogous-600,#5625b3);
+$analogous-500: var(--analogous-500,#48a3f3);
+$analogous-400: var(--analogous-400,#9877d3);
+$analogous-300: var(--analogous-300,#a2dbff);
+$analogous-200: var(--analogous-200,#d2c1f0);
+$analogous-100: var(--analogous-100,#D2C0D5);
+
+$onsurface-900: var(--onsurface-900,#4d5b70);
+$onsurface-800: var(--onsurface-800,#606c7f);
+$onsurface-700: var(--onsurface-700,#737e8e);
+$onsurface-600: var(--onsurface-600,#868f9e);
+$onsurface-500: var(--onsurface-500,#99a1ad);
+$onsurface-400: var(--onsurface-400,#abc2bd);
+$onsurface-300: var(--onsurface-300,#bfc4cc);
+$onsurface-200: var(--onsurface-200,#d2d5dc);
+$onsurface-100: var(--onsurface-100,#e5e7eb);
+$onsurface-050: var(--onsurface-050,#eff0f2);
+$onsurface-040: var(--onsurface-040,#f6f6f7);
+
+$black: var(--black,#000000);
+$black-90: var(--black-90,rgba(0,0,0,0.9));
+$black-80: var(--black-80,rgba(0,0,0,0.8));
+$black-70: var(--black-70,rgba(0,0,0,0.7));
+$black-60: var(--black-60,rgba(0,0,0,0.6));
+$black-50: var(--black-50,rgba(0,0,0,0.5));
+$black-40: var(--black-40,rgba(0,0,0,0.4));
+$black-30: var(--black-30,rgba(0,0,0,0.3));
+$black-20: var(--black-20,rgba(0,0,0,0.2));
+$black-10: var(--black-10,rgba(0,0,0,0.1));
+
+$text: var(--text,#202e44);
+$text-90: var(--text-90,rgba(32,46,68,0.9));
+$text-80: var(--text-80,rgba(32,46,68,0.8));
+$text-70: var(--text-70,rgba(32,46,68,0.7));
+$text-60: var(--text-60,rgba(32,46,68,0.6));
+$text-50: var(--text-50,rgba(32,46,68,0.5));
+$text-40: var(--text-40,rgba(32,46,68,0.4));
+$text-30: var(--text-30,rgba(32,46,68,0.3));
+$text-20: var(--text-20,rgba(32,46,68,0.2));
+$text-10: var(--text-10,rgba(32,46,68,0.1));
+$text-0: var(--text-10,rgba(32,46,68,0));
+
+$error: var(--error,#e30425);
+$error-light: var(--error-light,#fff2f5);
+$error-20: var(--error-20,rgba(227,4,37,0.2));
+$error-close: var(--error,#fd9ba9);
+
+$success: var(--success,#6ac90f);
+$success-light: var(--success-light,#f4ffea);
+$success-dark: var(--success-dark,#37a500);
+$success-20: var(--success-20,rgba(106,201,15,0.2));
+$success-close: var(--success,#d8fab8);
+
+$attention: var(--attention,#3f78bf);
+$attention-light: var(--attention-light,#f5f8ff);
+$attention-20: var(--attention-20,rgba(63,120,191,0.2));
+$attention-close: var(--attention,#c6d7ec);
+
+$alert: var(--alert,#ffcb1f);
+$alert-light: var(--alert-light,#fffded);
+$alert-20: var(--alert-20,rgba(255,203,31,0.2));
+$alert-close: var(--alert,#ffedb3);
+
+$white: var(--white,#ffffff);
+
+
+//title
+$h1-font-size: 2rem;
+$h1-line-height: 2.5rem;
+$h2-font-size: 1.5rem;
+$h2-line-height: 2rem;
+$h3-font-size: 1.25rem;
+$h3-line-height: 1.75rem;
+
+//paragraph
+$p-large-font-size: 1rem;
+$p-large-line-height: 1.5rem;
+$p-medium-font-size: 0.875rem;
+$p-medium-line-height: 1.25rem;
+$p-small-font-size: 0.75rem;
+$p-small-line-height: 1.125rem;
+
+//buttons
+$button-font-size-lg: 1rem;
+$button-font-size-md: 0.875rem;
+$button-font-size-sm: 0.75rem;
+$button-height-lg: 2.5rem;
+$button-height-md: 2.25rem;
+$button-height-sm: 2rem;

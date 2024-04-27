@@ -1,0 +1,37 @@
+.ui-nav-menu-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ui-nav-menu-option a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media (min-width: 1px) and (max-width: 767.9px){
+    .ui-nav-menu-option,
+    .ui-nav-menu-option a {
+        min-width: 100px;
+        height: 52px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199.9px){
+    .ui-nav-menu-option,
+    .ui-nav-menu-option a {
+        min-width: 100px;
+        height: 52px;
+    }
+}
+
+@media (min-width: 1200px){
+    .ui-nav-menu-option,
+    .ui-nav-menu-option a {
+        min-width: 100px;
+        height: 52px;
+    }
+}

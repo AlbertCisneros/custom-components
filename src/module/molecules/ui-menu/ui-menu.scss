@@ -1,0 +1,16 @@
+.ui-nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    margin: 0px;
+    height: 52px;
+}
+
+.content-left {
+    justify-content: flex-start;
+}
+
+.content-right {
+    justify-content: flex-end;
+}

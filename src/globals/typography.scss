@@ -1,0 +1,44 @@
+h1, h2, h3, p, a, span, label{
+    margin: 0px;
+    font-family: "Anek Devanagari";
+}
+
+.ui-title--lg{
+    font-size: $h1-font-size;
+    line-height: $h1-line-height;
+}
+
+.ui-title--md {
+    font-size: $h2-font-size;
+    line-height: $h2-line-height;
+}
+
+.ui-title--sm {
+    font-size: $h3-font-size;
+    line-height: $h3-line-height;
+}
+
+.ui-paragraph--lg {
+    font-size: $p-large-font-size;
+    line-height: $p-large-line-height;
+}
+
+.ui-paragraph--md {
+    font-size: $p-medium-font-size;
+    line-height: $p-medium-line-height;
+}
+
+.ui-paragraph--sm {
+    font-size: $p-small-font-size;
+    line-height: $p-small-line-height;
+}
+
+.ui-paragraph--bold,
+.ui-title--bold{
+    font-weight: bold;
+}
+
+.ui-paragraph--regular,
+.ui-title--regular {
+    font-weight: 500;
+}
