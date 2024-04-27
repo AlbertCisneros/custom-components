@@ -1,0 +1,46 @@
+.ui-input {
+  
+    border: 1px solid $secondary-400;
+    border-radius: 12px;
+    padding: 4px 8px;
+    color: $secondary-800;
+    outline: none;
+    font-family: "Anek Devanagari";
+    &:focus {
+        border: 1px solid $secondary-800;
+    }
+    &:hover {
+        border: 1px solid $secondary-800;
+    }
+  
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 12px 0px;
+}
+
+.input-container label {
+    font-size: 16px;
+    position: absolute;
+    top: -10px;
+    background: $white;
+    padding: 0px 8px;
+    left: 8px;
+    color: $secondary-800;
+}
+
+.ui-input--sm {
+    height: 30px;
+}
+
+.ui-input--md {
+    font-size: 14px;
+    height: 32px;
+}
+
+.ui-input--lg {
+    height: 36px;
+}

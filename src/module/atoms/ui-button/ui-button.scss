@@ -1,0 +1,51 @@
+.ui-btn {
+    font-family:"Anek Devanagari";
+    border: 0px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+
+    &.full-width {
+        width: 100%;
+    }
+}
+
+.ui-btn p {
+    margin: 0px;
+}
+
+.ui-btn--lg {
+    height: $button-height-lg;
+    font-size: $button-font-size-lg;
+}
+
+.ui-btn--md {
+    height: $button-height-md;
+    font-size: $button-font-size-md;
+}
+
+.ui-btn--sm {
+    height: $button-height-sm;
+    font-size: $button-font-size-sm;
+}
+
+.ui-btn--primary {
+    @include button-variant($primary-500, $primary-400, $primary-400);
+}
+
+.ui-btn--secondary {
+    @include button-variant($secondary-800, $secondary-700, $secondary-700);
+}
+
+.ui-btn--text {
+    border-radius: 0px !important;
+    background-color: $white;
+    color: $primary-500;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.ui-btn--text:hover {
+    box-sizing: border-box;
+    border-bottom: 2px solid $primary-500;
+}
